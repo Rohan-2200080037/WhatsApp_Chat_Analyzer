@@ -27,7 +27,7 @@ from sklearn.decomposition import LatentDirichletAllocation
 import streamlit as st
 
 
-st.set_page_config(page_title="WhatsApp Chat Analyzer Advanced", layout="wide")
+st.set_page_config(page_title="WhatsApp Chat Analyzer", layout="wide")
 
 vader = SentimentIntensityAnalyzer()
 
