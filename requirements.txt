@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+emoji
+textblob
+vaderSentiment
+plotly
+langdetect
+fpdf
+detoxify
+scikit-learn
