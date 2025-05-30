@@ -231,7 +231,7 @@ def export_csv(df):
 # App UI
 # -------------------------
 
-st.title("🚀 WhatsApp Chat Analyzer Advanced")
+st.title("🚀 WhatsApp Chat Analyzer")
 
 uploaded_file = st.file_uploader("Upload your WhatsApp chat export (.txt)", type=["txt"])
 
