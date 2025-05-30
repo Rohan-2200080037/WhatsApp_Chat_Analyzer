@@ -2,53 +2,63 @@
 
 A powerful Streamlit-based web app that performs deep analysis of WhatsApp chat exports with advanced features like sentiment analysis, chat streaks, emoji tracking, word clouds, multilingual detection, and more.
 
+---
+
 ## 🔧 Features
 
 ### 📊 General Chat Statistics
-- Total messages, words, links, and media shared
-- Message type distribution
-- User-wise message and word contributions
+- Total messages, words, links, and media shared  
+- Message type distribution  
+- User-wise message and word contributions  
 
 ### 😊 Sentiment Analysis
-- Polarity, Subjectivity (TextBlob)
-- VADER Sentiment (Compound Score)
-- Sentiment over time visualizations
-- Sentiment scatter plots (Polarity vs Subjectivity)
+- Polarity, Subjectivity (TextBlob)  
+- VADER Sentiment (Compound Score)  
+- Sentiment over time visualizations  
+- Sentiment scatter plots (Polarity vs Subjectivity)  
 
 ### 🔥 Engagement Metrics
-- Average user response time
-- Longest chat streaks per user
-- Conversation starters (30+ min gaps)
+- Average user response time  
+- Longest chat streaks per user  
+- Conversation starters (30+ min gaps)  
 
 ### 🕒 Activity Patterns
-- Activity heatmap (hour vs weekday)
-- Hour-wise message frequency per user
-- Message length distribution
+- Activity heatmap (hour vs weekday)  
+- Hour-wise message frequency per user  
+- Message length distribution  
 
 ### 😄 Emoji Analysis
-- Top emojis overall and per user
+- Top emojis overall and per user  
 
 ### 🌐 Language Analysis
-- Detection of primary languages
-- Telugu transliterated language identification
-- Language usage distribution
+- Detection of primary languages  
+- Telugu transliterated language identification  
+- Language usage distribution  
 
 ### 🧠 Keyword & Word Cloud
-- Word cloud of common words (excluding stopwords)
-- Most frequent words
+- Word cloud of common words (excluding stopwords)  
+- Most frequent words  
 
 ### 🔗 Shared Content
-- Most frequently shared URLs and domains
+- Most frequently shared URLs and domains  
 
 ### 📁 Export Capabilities
-- Export full dataset as CSV
-- Ready for PDF integration (with saved plots)
+- Export full dataset as CSV  
+- Ready for PDF integration (with saved plots)  
 
-##📦 Technologies Used
+---
 
-Python, Streamlit
-pandas, numpy, seaborn, plotly, matplotlib
-wordcloud, emoji, TextBlob, VADER, langdetect
-Detoxify, scikit-learn (LDA support)
+## 📦 Technologies Used
 
+- Python, Streamlit  
+- pandas, numpy, seaborn, plotly, matplotlib  
+- wordcloud, emoji, TextBlob, VADER, langdetect  
+- Detoxify, scikit-learn (LDA support)  
 
+---
+
+## 📤 Export & Insights
+
+Export the processed chat as CSV, visualize charts and statistics on the go, and understand engagement, emotional tone, and language diversity.
+
+---
