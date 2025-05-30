@@ -36,7 +36,6 @@ A powerful Streamlit-based web app that performs deep analysis of WhatsApp chat 
 ### 🧠 Keyword & Word Cloud
 - Word cloud of common words (excluding stopwords)
 - Most frequent words
-- Mentions summary (e.g., @name)
 
 ### 🔗 Shared Content
 - Most frequently shared URLs and domains
@@ -44,3 +43,12 @@ A powerful Streamlit-based web app that performs deep analysis of WhatsApp chat 
 ### 📁 Export Capabilities
 - Export full dataset as CSV
 - Ready for PDF integration (with saved plots)
+
+##📦 Technologies Used
+
+Python, Streamlit
+pandas, numpy, seaborn, plotly, matplotlib
+wordcloud, emoji, TextBlob, VADER, langdetect
+Detoxify, scikit-learn (LDA support)
+
+
