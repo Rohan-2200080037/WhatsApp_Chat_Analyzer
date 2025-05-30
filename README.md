@@ -1,22 +1,46 @@
-# WhatsApp Chat Analyzer
+# 🚀 WhatsApp Chat Analyzer Advanced
 
-A comprehensive Streamlit app for in-depth WhatsApp chat analysis with multiple features including sentiment analysis, language detection, user statistics, visualizations, and more.
+A powerful Streamlit-based web app that performs deep analysis of WhatsApp chat exports with advanced features like sentiment analysis, chat streaks, emoji tracking, word clouds, multilingual detection, and more.
 
-## Features
-- Chat preprocessing and cleaning
-- Sentiment analysis using TextBlob and VADER
-- Emotion detection with NRCLex
-- Language detection and translation
-- User activity and message statistics
-- Wordcloud and keyword trends visualization
-- Toxicity detection with Detoxify
-- Reply chain and conversation starter analysis
-- Export results to CSV or PDF
-- Interactive Streamlit UI
+## 🔧 Features
 
-## Installation
+### 📊 General Chat Statistics
+- Total messages, words, links, and media shared
+- Message type distribution
+- User-wise message and word contributions
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/whatsapp-chat-analyzer.git
-   cd whatsapp-chat-analyzer
+### 😊 Sentiment Analysis
+- Polarity, Subjectivity (TextBlob)
+- VADER Sentiment (Compound Score)
+- Sentiment over time visualizations
+- Sentiment scatter plots (Polarity vs Subjectivity)
+
+### 🔥 Engagement Metrics
+- Average user response time
+- Longest chat streaks per user
+- Conversation starters (30+ min gaps)
+
+### 🕒 Activity Patterns
+- Activity heatmap (hour vs weekday)
+- Hour-wise message frequency per user
+- Message length distribution
+
+### 😄 Emoji Analysis
+- Top emojis overall and per user
+
+### 🌐 Language Analysis
+- Detection of primary languages
+- Telugu transliterated language identification
+- Language usage distribution
+
+### 🧠 Keyword & Word Cloud
+- Word cloud of common words (excluding stopwords)
+- Most frequent words
+- Mentions summary (e.g., @name)
+
+### 🔗 Shared Content
+- Most frequently shared URLs and domains
+
+### 📁 Export Capabilities
+- Export full dataset as CSV
+- Ready for PDF integration (with saved plots)
