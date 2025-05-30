@@ -295,12 +295,6 @@ if uploaded_file:
         fig_type = px.pie(names=list(type_counts.keys()), values=list(type_counts.values()), title="Message Type Distribution")
         st.plotly_chart(fig_type, use_container_width=True)
 
-        st.subheader("Language Distribution")
-        if 'Language' in df.columns:
-            lang_counts = df['Language'].value_counts()
-            fig_lang = px.bar(lang_counts, title="Languages Detected")
-            st.plotly_chart(fig_lang, use_container_width=True)
-
         st.subheader("Mentions Summary")
         mentions = [m for sublist in df['Mentions'] for m in sublist]
         mention_counts = Counter(mentions)
