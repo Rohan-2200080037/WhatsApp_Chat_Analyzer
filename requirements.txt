@@ -9,6 +9,6 @@ textblob
 vaderSentiment
 plotly
 langdetect
-fpdf
+fpdf2
 detoxify
 scikit-learn
